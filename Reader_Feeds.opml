@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+  <title>My feeds</title>
+</head>
+<body>
+<outline text="Feeds" title="Feeds">
+  <outline title="InfoQ - Architecture & Design" category="Architecture" type="rss" xmlUrl="https://feed.infoq.com/architecture-design/" />
+  <outline title="InfoQ - AI, ML & Data Engineering - News" category="AI" type="rss" xmlUrl="https://feed.infoq.com/ai-ml-data-eng/news/" />
+  <outline title="InfoQ - Culture & Methods" category="Culture & Methods" type="rss" xmlUrl="https://feed.infoq.com/culture-methods/" />
+  <outline title="InfoQ - DevOps" category="DevOps" type="rss" xmlUrl="https://feed.infoq.com/devops" />
+  <outline title="The New Stack - Python" category="Python" type="rss" xmlUrl="https://thenewstack.io/feed/" />
+  <outline title="The New Stack - Developer Tools" category="Developer Tools" type="rss" xmlUrl="https://thenewstack.io/developer-tools/feed" />
+  <outline title="The New Stack - Databases" category="Databases" type="rss" xmlUrl="https://thenewstack.io/databases/feed" />
+  <outline title="The New Stack - Storage" category="Databases" type="rss" xmlUrl="https://thenewstack.io/storage/feed" />
+  <outline title="The New Stack - Microservices" category="Architecture" type="rss" xmlUrl="https://thenewstack.io/microservices/feed" />
+  <outline title="The New Stack - Linux"  type="rss" xmlUrl="https://thenewstack.io/linux/feed" />
+</outline>
+</body>
+</opml>
