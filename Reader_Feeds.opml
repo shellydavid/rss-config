@@ -24,6 +24,12 @@
   <outline title="Security - The New Stack" category="🌐 Networking & Security" type="rss" xmlUrl="https://thenewstack.io/security/feed" />
   <outline title="API Management - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/api-management/feed" />
   <outline title="Development - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/software-development/feed/" />
+  <outline title="Python Insider" category="🐍 Python" type="rss" xmlUrl="https://blog.python.org/feeds/posts/default?alt=rss" />
+  <outline title="PyCoder’s Weekly" category="🐍 Python" type="rss" xmlUrl="https://pycoders.com/feed" />
+  <outline title="Real Python" category="🐍 Python" type="rss" xmlUrl="https://realpython.com/atom.xml" />
+  <outline title="Databases - arXiv Research" category="📊 Databases & Data" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.DB" />
+  <outline title="Software Engineering - arXiv Research" category="💻 Development" type="rss" xmlUrl="http://rss.arxiv.org/rss/cs.SE" />
+  <outline title="Networking & Internet Architecture - arXiv Research" category="🌐 Networking & Security" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.NI" />
 </outline>
 </body>
 </opml>
