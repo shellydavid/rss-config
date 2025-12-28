@@ -1,35 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
-<head>
-  <title>My feeds</title>
-</head>
-<body>
-<outline text="Feeds" title="Feeds">
-  <outline title="InfoQ - Architecture & Design" category="🌆 System Architecture" type="rss" xmlUrl="https://feed.infoq.com/architecture-design/" />
-  <outline title="InfoQ - AI, ML & Data Engineering - News" category="🤖 AI" type="rss" xmlUrl="https://feed.infoq.com/ai-ml-data-eng/news/" />
-  <outline title="InfoQ - Culture & Methods" category="🌿 Culture & Methods" type="rss" xmlUrl="https://feed.infoq.com/culture-methods/" />
-  <outline title="InfoQ - DevOps" category="🔘 DevOps" type="rss" xmlUrl="https://feed.infoq.com/devops" />
-  <outline title="Python - The New Stack" category="🐍 Python" type="rss" xmlUrl="https://thenewstack.io/feed/" />
-  <outline title="Developer Tools - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/developer-tools/feed" />
-  <outline title="Databases - The New Stack" category="📊 Databases & Data" type="rss" xmlUrl="https://thenewstack.io/databases/feed" />
-  <outline title="Storage - The New Stack" category="📊 Databases & Data" type="rss" xmlUrl="https://thenewstack.io/storage/feed" />
-  <outline title="Microservices - The New Stack" category="🌆 System Architecture" type="rss" xmlUrl="https://thenewstack.io/microservices/feed" />
-  <outline title="Linux - The New Stack" category="🐧 Linux" type="rss" xmlUrl="https://thenewstack.io/linux/feed" />
-  <outline title="Canonical Blog" category="🔆 Companies" type="rss" xmlUrl="https://canonical.com/blog/feed" />
-  <outline title="Postman Blog" category="🔆 Companies" type="rss" xmlUrl="https://blog.postman.com/feed/" />
-  <outline title="VS Code Blog" category="🔆 Companies" type="rss" xmlUrl="https://devblogs.microsoft.com/vscode-blog/feed" />
-  <outline title="Data - The New Stack" category="📊 Databases & Data" type="rss" xmlUrl="https://thenewstack.io/data/feed" />
-  <outline title="Backend Development - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/backend-development/feed" />
-  <outline title="Networking - The New Stack" category="🌐 Networking & Security" type="rss" xmlUrl="https://thenewstack.io/networking/feed" />
-  <outline title="Security - The New Stack" category="🌐 Networking & Security" type="rss" xmlUrl="https://thenewstack.io/security/feed" />
-  <outline title="API Management - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/api-management/feed" />
-  <outline title="Development - The New Stack" category="💻 Development" type="rss" xmlUrl="https://thenewstack.io/software-development/feed/" />
-  <outline title="Python Insider" category="🐍 Python" type="rss" xmlUrl="https://blog.python.org/feeds/posts/default?alt=rss" />
-  <outline title="PyCoder’s Weekly" category="🐍 Python" type="rss" xmlUrl="https://pycoders.com/feed" />
-  <outline title="Real Python" category="🐍 Python" type="rss" xmlUrl="https://realpython.com/atom.xml" />
-  <outline title="Databases - arXiv Research" category="📊 Databases & Data" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.DB" />
-  <outline title="Software Engineering - arXiv Research" category="💻 Development" type="rss" xmlUrl="http://rss.arxiv.org/rss/cs.SE" />
-  <outline title="Networking & Internet Architecture - arXiv Research" category="🌐 Networking & Security" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.NI" />
-</outline>
-</body>
+  <head>
+    <title>My feeds</title>
+  </head>
+  <body>
+
+    <outline text="🌆 System Architecture" title="🌆 System Architecture">
+      <outline type="rss" text="InfoQ - Architecture / Design" title="InfoQ - Architecture / Design" xmlUrl="https://feed.infoq.com/architecture-design/" htmlUrl="https://www.infoq.com/architecture-design/" />
+      <outline type="rss" text="Microservices - The New Stack" title="Microservices - The New Stack" xmlUrl="https://thenewstack.io/microservices/feed" htmlUrl="https://thenewstack.io/microservices/" />
+    </outline>
+
+    <outline text="🤖 AI" title="🤖 AI">
+      <outline type="rss" text="InfoQ - AI, ML / Data Engineering - News" title="InfoQ - AI, ML / Data Engineering - News" xmlUrl="https://feed.infoq.com/ai-ml-data-eng/news/" htmlUrl="https://www.infoq.com/ai-ml-data-eng/news/" />
+    </outline>
+
+    <outline text="🌿 Culture / Methods" title="🌿 Culture / Methods">
+      <outline type="rss" text="InfoQ - Culture / Methods" title="InfoQ - Culture / Methods" xmlUrl="https://feed.infoq.com/culture-methods/" htmlUrl="https://www.infoq.com/culture-methods/" />
+    </outline>
+
+    <outline text="🔘 DevOps" title="🔘 DevOps">
+      <outline type="rss" text="InfoQ - DevOps" title="InfoQ - DevOps" xmlUrl="https://feed.infoq.com/devops" htmlUrl="https://www.infoq.com/devops/" />
+    </outline>
+
+    <outline text="🐍 Python" title="🐍 Python">
+      <outline type="rss" text="Python - The New Stack" title="Python - The New Stack" xmlUrl="https://thenewstack.io/feed/" htmlUrl="https://thenewstack.io/" />
+      <outline type="rss" text="Python Insider" title="Python Insider" xmlUrl="https://blog.python.org/feeds/posts/default?alt=rss" htmlUrl="https://blog.python.org/" />
+      <outline type="rss" text="PyCoder's Weekly" title="PyCoder's Weekly" xmlUrl="https://pycoders.com/feed" htmlUrl="https://pycoders.com/" />
+      <outline type="rss" text="Real Python" title="Real Python" xmlUrl="https://realpython.com/atom.xml" htmlUrl="https://realpython.com/" />
+    </outline>
+
+    <outline text="💻 Development" title="💻 Development">
+      <outline type="rss" text="Developer Tools - The New Stack" title="Developer Tools - The New Stack" xmlUrl="https://thenewstack.io/developer-tools/feed" htmlUrl="https://thenewstack.io/developer-tools/" />
+      <outline type="rss" text="Backend Development - The New Stack" title="Backend Development - The New Stack" xmlUrl="https://thenewstack.io/backend-development/feed" htmlUrl="https://thenewstack.io/backend-development/" />
+      <outline type="rss" text="API Management - The New Stack" title="API Management - The New Stack" xmlUrl="https://thenewstack.io/api-management/feed" htmlUrl="https://thenewstack.io/api-management/" />
+      <outline type="rss" text="Development - The New Stack" title="Development - The New Stack" xmlUrl="https://thenewstack.io/software-development/feed/" htmlUrl="https://thenewstack.io/software-development/" />
+      <outline type="rss" text="Software Engineering - arXiv Research" title="Software Engineering - arXiv Research" xmlUrl="http://rss.arxiv.org/rss/cs.SE" htmlUrl="https://arxiv.org/list/cs.SE/recent" />
+    </outline>
+
+    <outline text="📊 Databases / Data" title="📊 Databases / Data">
+      <outline type="rss" text="Databases - The New Stack" title="Databases - The New Stack" xmlUrl="https://thenewstack.io/databases/feed" htmlUrl="https://thenewstack.io/databases/" />
+      <outline type="rss" text="Storage - The New Stack" title="Storage - The New Stack" xmlUrl="https://thenewstack.io/storage/feed" htmlUrl="https://thenewstack.io/storage/" />
+      <outline type="rss" text="Data - The New Stack" title="Data - The New Stack" xmlUrl="https://thenewstack.io/data/feed" htmlUrl="https://thenewstack.io/data/" />
+      <outline type="rss" text="Databases - arXiv Research" title="Databases - arXiv Research" xmlUrl="https://rss.arxiv.org/rss/cs.DB" htmlUrl="https://arxiv.org/list/cs.DB/recent" />
+    </outline>
+
+    <outline text="🌐 Networking / Security" title="🌐 Networking / Security">
+      <outline type="rss" text="Networking - The New Stack" title="Networking - The New Stack" xmlUrl="https://thenewstack.io/networking/feed" htmlUrl="https://thenewstack.io/networking/" />
+      <outline type="rss" text="Security - The New Stack" title="Security - The New Stack" xmlUrl="https://thenewstack.io/security/feed" htmlUrl="https://thenewstack.io/security/" />
+      <outline type="rss" text="Networking / Internet Architecture - arXiv Research" title="Networking / Internet Architecture - arXiv Research" xmlUrl="https://rss.arxiv.org/rss/cs.NI" htmlUrl="https://arxiv.org/list/cs.NI/recent" />
+    </outline>
+
+    <outline text="🔆 Companies" title="🔆 Companies">
+      <outline type="rss" text="Canonical Blog" title="Canonical Blog" xmlUrl="https://canonical.com/blog/feed" htmlUrl="https://canonical.com/blog" />
+      <outline type="rss" text="Postman Blog" title="Postman Blog" xmlUrl="https://blog.postman.com/feed/" htmlUrl="https://blog.postman.com/" />
+      <outline type="rss" text="VS Code Blog" title="VS Code Blog" xmlUrl="https://devblogs.microsoft.com/vscode-blog/feed" htmlUrl="https://devblogs.microsoft.com/vscode-blog/" />
+    </outline>
+
+  </body>
 </opml>
